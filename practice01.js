@@ -81,10 +81,12 @@ console.log("The remainder is:- " + remainder)
 // Task-4
 // What will be the result of the following codes:
 
-// var a = isNaN(‘11’);
-// console.log(a)
+var a = isNaN('11');
+console.log(a)
 
-// var a = isNaN(2 - 10);
-// console.log(a)
+var a = isNaN(2 - 10);
+console.log(a)
 
-// Explain your answers.
+// Explain your answers:-
+
+// If I try to convert any string to Number – like "1", "2", "3" etc – then if IsNaN is used, it will return false. Because before using IsNaN, if any string is tried to convert to Number like "Name", "Roll", then in isNaN("11") the result comes false. Another example is – if isNaN(2 - 10), because -8 is a valid number, so the result comes false.
